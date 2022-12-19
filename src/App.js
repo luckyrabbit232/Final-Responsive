@@ -70,7 +70,7 @@ function App() {
             We had the chance to find a website to recreate, incorporating design 
             philosophy taught in class. I chose the Zara webpage since, although looked 
             visually appealling, was poorly thought out regarding the affordances for user 
-            experience. We had to create designs for the website and a mobile version.
+            experience. I had to create designs for the website and a mobile version.
             </p>
           </div>
         </div>
@@ -151,44 +151,44 @@ function App() {
         </div>
         <div className = "Basic_TextBox">
           <div className = "TextBox_Child">
-            <p>
-            Solving the usability iss ues:
-            </p>
+            <b>Solving the usability iss ues:</b>
             <p>
             After outlining the usability issues detailed above, 
             I sought to redesign the webpage. I focused on creating buttons that had text, 
             formatting the items so that they are closer to each other for easier comparison, 
             and creating a button to navigate to your last selection.
             </p>
-            <div className = "indentation"></div>
-            <p>
-            Creating a Lo-Fi Prototype:            
-            </p>
+            </div>
+            <div className = "TextBox_Child">
+            <b>Creating a Lo-Fi Prototype:</b>            
             <p>
             I created a Lo-Fi prototype to incorporate these designs on Balsamiq for both the 
             desktop and mobile versions.
             </p>
+            </div>
             <div className = "Basic_ImageContainer">
               <img src = "./Images/Lofi.png" className = "Basic_Image1"></img>
             </div>
-            <div className = "indentation"></div>
-            <p><b>Creating a Hi-Fi Prototype:</b></p>
+            <div className = "TextBox_Child">
+            <b>Creating a Hi-Fi Prototype:</b>
             <p>
-            Then, creating the Hi-Fi prototype, I utilized a visual design guide to incorporate
-             the assets that were used. I then incorporated both the visual design guide, and the Lo-Fi 
-             prototype to create a Hi-Fi prototype in which my website wil lbe based on.
+            Then, I created the Hi-Fi prototype. I used the designs I made in the Lo-Fi to guide my
+            design choices. Using Figma, I created a design guide to show the designs I used for the website.
+            Then, I fleshed out the website on Figma and added comments to show how they suffice the affordances
+            that makes the website intuitive. 
             </p>
+            </div>
             <div className = "Basic_ImageContainer">
               <img src = "./Images/Design.png" className = "Basic_Image1"></img>
             </div>
             <div className = "Basic_ImageContainer">
-              <img src = "./Images/Hifi.png" className = "Basic_Image1"></img>
+              <img src = "./Images/Hifi.png" className = "Basic_Image3"></img>
             </div>
-            <div className = "indentation"></div>
-            <p>Deploying the website:</p>
+            <div className = "TextBox_Child">
+            <b>Deploying the website:</b>
             <p>Finally, using Github pages, I deployed the webpage which you can view using the button 
               link at the top of the page.</p> 
-          </div>
+              </div>
         </div>
       </div>
 
@@ -211,7 +211,6 @@ function App() {
             programming. I felt that I started to understand the design process regarding being a 
             UI developer, going through the stages of planning then execution.
             </p>
-            <div className = "indentation"></div>
             <p>
             However, given that I did not implement all the functionality I wanted, primarily the 
             drop-down menu for colors and sizes. Moreover, I felt that some of my comments regarding 
@@ -219,7 +218,6 @@ function App() {
             added detailed design indications such as margin padding, and pixel sizes of the pictures for 
             better planning.
             </p>
-            <div className = "indentation"></div>
 
           </div>
         </div>
@@ -229,7 +227,7 @@ function App() {
         <div className = "Other_ProjectsTitle">
           <div className = "Other_ProjectsTitle">
             <div className = "OtherProjectsTitle_Text">
-            You May Also Like...
+            <i>You May Also Like...</i>
             </div>
           </div>
         </div>

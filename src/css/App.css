@@ -6,6 +6,7 @@
 .Header{
   display:flex;
   flex-direction: column;
+  padding-bottom: 50px;
 }
 
 .UpperHeader{
@@ -47,9 +48,10 @@
 
 .Introduction{
   display: flex;
-  aspect-ratio: 16/9;
+  aspect-ratio: 16/6;
   justify-content: center;
   object-fit: cover;
+  background-size: 100%;
   background-image: url(../Images/Background.png);  
 }
 
@@ -82,6 +84,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 50px;
 
 }
 
@@ -111,17 +114,24 @@
   padding-right: 30px;
   overflow: hidden;
   white-space: nowrap;
+  font-size: 25px; 
 }
 
 .Basic_TextBox{
   display:flex;
   justify-content: center;
   text-align: center;
+  flex-direction: column;
 }
 
 .TextBox_Child{
-  font-size: 15px;
+  display:flex;
+  flex-direction: column;
+  font-size: 18 px;
   text-align: left;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 10px;
 }
 
 .indentation{
@@ -132,16 +142,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .Basic_Image1{
-  height: 450px;
+  height: 400px;
   width: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .Basic_Image2{
   height: 300px;
   width: auto;
+}
+
+.Basic_Image3{
+  height: 500px;
+  width: auto;
+  padding-bottom: 15px;
 }
 
 .OtherProjects_Divider{
@@ -156,8 +176,9 @@
 }
 
 .OtherProjectsTitle_Text{
-  text-align: left;
-  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Other_ProjectsComponents{
@@ -188,6 +209,8 @@
   display: block;
   text-align: center;
   justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .Portfolio_Image{
