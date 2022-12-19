@@ -22,23 +22,20 @@ function App() {
       <div className = "Header">
         <div className = "UpperHeader">
           <div className = "Logo">
-            <b> My Portfolio</b>
+             My Portfolio
           </div>
           <div className = "Menu">
             <div className = "Menu_Child">
-              <a href = "https://luckyrabbit232.github.io/Final-Portoflio/">
+              <a href = "https://luckyrabbit232.github.io/Final-Portoflio/" className = "Hyperlink">
                 Home
               </a>
             </div>
             <div className = "Menu_Child2">
-              <a href = "https://luckyrabbit232.github.io/Final-Portoflio/">
+              <a href = "https://luckyrabbit232.github.io/Final-Portoflio/" className = "Hyperlink">
                 About Me
               </a>
             </div>
           </div>
-        </div>
-        <div className = "LowerHeader">
-          <i>Home/Responsive Redesign</i>
         </div>
       </div>
       <div className = "Introduction">
@@ -123,7 +120,7 @@ function App() {
           </div>
         </div>
         <div className = "Basic_TextBox">
-          <div className = "TextBox_Child">
+          <div className = "TextBoxGoal_Child">
             <p>
             The technical goals of this assignment are as follows:
             </p>
@@ -151,7 +148,7 @@ function App() {
         </div>
         <div className = "Basic_TextBox">
           <div className = "TextBox_Child">
-            <b>Solving the usability iss ues:</b>
+            <b>Solving the usability issues:</b>
             <p>
             After outlining the usability issues detailed above, 
             I sought to redesign the webpage. I focused on creating buttons that had text, 
@@ -213,7 +210,7 @@ function App() {
             </p>
             <p>
             However, given that I did not implement all the functionality I wanted, primarily the 
-            drop-down menu for colors and sizes. Moreover, I felt that some of my comments regarding 
+            drop-down menu for colors and sizes, I believe there was alot to impreve. Moreover, I felt that some of my comments regarding 
             my Lo-Fi and Hi-Fi sketchups could have been more concise. Finally, I felt that I could have 
             added detailed design indications such as margin padding, and pixel sizes of the pictures for 
             better planning.
